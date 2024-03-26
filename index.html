@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripts</title>
+    
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Calculadora</h1>
+
+        <form action="#">
+            <label for="text">Digite o primeiro número</label><br>
+            <input type="text" id="pri_input"> <br><br>
+
+            <label for="text">Digite o segundo número</label><br>
+            <input type="text" id="sec_input">
+
+            <br><br>
+
+            <input type="submit" value="Calcular" onclick="operacoesMat()">
+        </form>
+
+        <br>
+
+        <ul>
+            <li>Adição: <span id="adicao">#</span></li>
+            <li>Subtração: <span id="subt">#</span></li>
+            <li>Multiplicação: <span id="mult">#</span></li>
+            <li>Divisão: <span id="div">#</span></li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Detector de Maiores de Idade</h2>
+
+        <form action="#">
+            <label for="text">Digite a sua idade</label><br>
+            <input type="text" id="input_idade"> <br><br>
+
+            <input type="submit" value="Calcular" onclick="calculaIdade()">
+        </form>
+        <ul>
+            <li>Resultado: <span id="descIdade">#</span></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Permissão para Voto</h2>
+
+        <form action="#">
+            <label for="text">Digite a sua idade</label><br>
+            <input type="text" id="input_idade_voto"> <br><br>
+
+            <input type="submit" value="Calcular" onclick="permissaoVoto()">
+        </form>
+        <ul>
+            <li>Resultado: <span id="permIdade">#</span></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Verifica valor numérico</h2>
+
+        <form action="#">
+            <label for="text">Digite o seu número</label><br>
+            <input type="text" id="input_number"> <br><br>
+
+            <input type="submit" value="Calcular" onclick="verificaNumero()">
+        </form>
+        <ul>
+            <li>Resultado: <span id="resNumber">#</span></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Qual o dia da semana?</h2>
+
+        <form action="#">
+            <label for="text">Digite um número de 1 a 7</label><br>
+            <input type="text" id="input_number_semana"> <br><br>
+
+            <input type="submit" value="Calcular" onclick="diaSemana()">
+        </form>
+        <ul>
+            <li>Resultado: <span id="resDia">#</span></li>
+        </ul>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
